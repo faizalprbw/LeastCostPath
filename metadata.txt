@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Least Cost Path
+qgisMinimumVersion=2.0
+description=This Plugin used to find the least-cost path between to location on DEM Surface using anisotropic accumulated-cost surface and A* algorithm.
+version=0.1
+author=Achmad Faizal P S
+email=faizalprbw@Gmail.com
+
+about=This Plugin used to find the least-cost path between to location on DEM Surface using anisotropic accumulated-cost surface and A* algorithm. Anisotropic accumulated - cost surface algorithm used in this plugin reference to the algorithm described by Yu C., Lee J., and Munro-Stasiuk M J (2003) base on their journal (Yu C., Lee J., and Munro-Stasiuk M J., 2003, “Extensions to Least-Cost Path Algorithms For Roadway Planning”, International Journal of Geographical Information Science, Vol. 17, No. 4, hal. 361–376.). A* algorithm used in this plugin reference to Lester (2005) written on website ( www.policyalmanac.org/games/aStar.html)
+
+tracker=a
+repository=a
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=analysis, network analysis, raster, routing, topography
+
+homepage=a
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
